@@ -1,0 +1,166 @@
+.header {
+    /* other colors */
+    background-color: #B21368;
+    margin: 1em;
+    padding: 1em;
+    padding-left: 3em;
+    padding-right: 3em;
+    /* border: 0.006em solid transparent; */
+}
+
+.profile-container {
+    /* two columns; to the left */
+    display: grid;
+    grid-template-columns: max-content max-content;
+    align-items: center;
+
+    grid-gap: 1em;
+}
+
+.profile {
+    /* font */
+    font-size: x-large;
+}
+
+#profile-section {
+    background-color: #D68FB0;
+    margin-left: 1em;
+    margin-right: 1em;
+    padding: 3em;
+
+    /* font */
+    color: #EAE6F0;
+}
+
+.post-container {
+    /* two columns; equal width */
+    display: grid;
+    grid-template-columns: auto auto;
+
+    grid-gap: 2em;
+    margin: 1em;
+}
+
+.post {
+    padding: 2em;
+
+    /* other colors */
+    background-color: #D68FB0;
+
+    /* font */
+    color: #EAE6F0;
+    font-size: large;
+}
+
+.author-container {
+    /* two columns; to the left */
+    display: grid;
+    grid-template-columns: max-content max-content;
+
+    grid-gap: 1em;
+}
+
+.author {
+    /* font */
+    color: #BF3880;
+    font-size: larger;
+}
+
+.sharedImage {
+    /* in the middle */
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.intervalButton {
+    /* in the middle */
+    display: block;
+    margin: 0 auto;
+    /* margin-top = margin-bottom = 0; margin-left & margin-right: distribute the remaining space equally on both sides*/
+
+    /* other colors */
+    border-color: #BF3880;
+
+    /* font */
+    font-size: small;
+    font-weight: bold;
+    color: #BF3880;
+}
+
+a {
+    color: #BF3880;
+    text-decoration: none;
+}
+
+#profilePageHeader-container {
+    /* two columns; to the left */
+    display: grid;
+    grid-template-columns: max-content max-content;
+    align-items: center;
+
+    grid-gap: 1em;
+}
+
+.headerTitle {
+    margin: 1em;
+    margin-top: 1.5em;
+    margin-bottom: 1.5em;
+
+    /* font */
+    font-size: x-large;
+    font-weight: bold;
+    color: #EAE6F0;
+}
+
+#userInfo-section {
+    /* two columns; to the left */
+    display: grid;
+    grid-template-columns: max-content max-content max-content;
+
+    /* other colors */
+    background-color: #D68FB0;
+
+    margin-left: 1em;
+    margin-right: 1em;
+    padding: 1em;
+    padding-left: 3em;
+    padding-right: 3em;
+    row-gap: 1em;
+    column-gap: 4em;
+
+    /* font */
+    color: #EAE6F0;
+}
+
+.userAttributes {
+    /* font */
+    font-size: large;
+    font-weight: bolder;
+}
+
+.userOldInfo {
+    /* font */
+    font-size: medium;
+    font-weight: normal;
+}
+
+.userNewInfo {
+    /* other colors */
+    background-color: #EAE6F0;
+    border-color: transparent;
+
+    /* font */
+    font-size: medium;
+    font-weight: normal;
+}
+
+#updateBtn {
+    /* other colors */
+    border-color: #BF3880;
+
+    /* font */
+    font-size: small;
+    font-weight: bold;
+    color: #BF3880;
+}
